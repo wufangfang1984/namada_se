@@ -12,7 +12,14 @@ Below is the IBC relayer channel we created for namada and osmosis.
 |-|-|-|
 |Chain-id|shielded-expedition.88f17d1d14|osmo-test-5|
 |Channel-id|channel-509|channel-5956|
-|Client-id|07-tendermint-1801|07-tendermint-2435|
+|Client-id|07-tendermint-1801|07-tendermint-2435|  
+
+Proofs:  
+https://testnet.mintscan.io/osmosis-testnet/txs/4302585F640F9ABEDEE2595821704F289BD4AB5CB8F0645074D9F6B59B434C4E?height=5657791  
+
+https://testnet.mintscan.io/osmosis-testnet/txs/BB705B808D68EAEF9CB3E1C12C71C4117BCE49C3DB45FB8DEB8E812AF21A4B85?height=5658068  
+
+https://testnet.mintscan.io/osmosis-testnet/txs/D8ECE091E8E9FDE32C3D2F9E68A97B64B951192EE6A88C46559F42C9238E6E40?height=5658086  
 
 # Install Namada, Osmosisd and Hermes
 ```
