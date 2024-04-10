@@ -65,11 +65,11 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
   border-radius: 12px;
   padding: 12px;
 ">
-install essentials
+http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 </div>
 
 
-## Node Setup
+## <center> Node Setup
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
@@ -77,7 +77,9 @@ install essentials
   border-radius: 12px;
   padding: 8px;
 ">
-http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
+<b>install essentials</b>
+sudo apt update; sudo apt upgrade -y<br />
+sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
 </p>
 
 ## Validator management
