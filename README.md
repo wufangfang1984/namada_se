@@ -2,6 +2,7 @@
 
 ## <center> Infrastructures
 
+<div stlye="background:black;">
 #### <center> Public RPC:
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
@@ -67,6 +68,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
 ">
 http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 </p>
+</div>
 
 ## Validator Setup
 
