@@ -58,59 +58,27 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
 </p>
 
 #### <center> Snapshot:
-<p style="
+<div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
   text-align: center;
   border-radius: 12px;
   padding: 12px;
 ">
+install essentials
+</div>
+
+
+## Node Setup
+<p style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
 http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 </p>
-
-
-## Validator Setup
-
-#### Recover key from registered account
-```
-namadaw derive --alias "ALIAS"
-```
-
-#### Check key address
-```
-namadaw find --alias "ALIAS"
-```
-
-#### Check balance
-```
-namadac balance --owner "ALIAS"
-```
-
-#### Initialize validator
-```
-namadac init-validator \
- --alias "VAL_NAME" \
- --account-keys "KEY_NAME" \
- --signing-keys "KEY_NAME" \
- --commission-rate 0.1 \
- --max-commission-rate-change 0.1 \
- --email "EMAIL" \
-```
-
-#### Find validator key
-```
-namadac find-validator --tm-address=$(curl -s localhost:26657/status | jq -r .result.validator_info.address)
-```
-
-#### Self Bond
-```
-namada client bond --validator "VALIDATOR" --amount "AMOUNT"
-```
-
-#### Bond tokens to your validator
-```
-namadac bond --source "DELEGATOR" --validator "<Validator address>" --amount AMOUNT
-```
 
 ## Validator management
 
