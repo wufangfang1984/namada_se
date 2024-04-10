@@ -1,11 +1,8 @@
 # <center> Namada infrastructure
 
-## Infrastructures
+## <center> Infrastructures
 
-#### Public RPC: 
-```
-https://rpc.shieldedexpedition-mohismstake.site/
-```
+#### <center> Public RPC:
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
@@ -16,15 +13,30 @@ https://rpc.shieldedexpedition-mohismstake.site/
 <a href="https://rpc.shieldedexpedition-mohismstake.site/" title="RPC endpoint">https://rpc.shieldedexpedition-mohismstake.site/</a>
 </p>
 
-#### Indexer Service: 
-```
-https://indexer.shieldedexpedition-mohismstake.site/block/last
-```
+#### <center> Indexer Service: 
+<p style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+<a href="https://rpc.shieldedexpedition-mohismstake.site/" title="RPC endpoint">https://rpc.shieldedexpedition-mohismstake.site/</a>
+</p>
 
-#### Seed:
+#### <center> Seed:
 ```
 tcp://e1e4f80f1a4738f3a3983369c35e3d3fe3369b3f@154.53.45.59:26656
 ```
+<p style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+tcp://e1e4f80f1a4738f3a3983369c35e3d3fe3369b3f@154.53.45.59:26656
+</p>
 
 #### Peer:
 ```
