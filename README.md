@@ -68,6 +68,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
 http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 </div>
 
+<div style="height:22px"></div>
 
 ## <center> Node Setup
 <p style="
