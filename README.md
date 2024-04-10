@@ -1,4 +1,4 @@
-# Namada infrastructure =
+# <center> Namada infrastructure
 
 ## Infrastructures
 
