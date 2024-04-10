@@ -13,7 +13,7 @@ https://rpc.shieldedexpedition-mohismstake.site/
   border-radius: 12px;
   padding: 8px;
 ">
-<a href="https://rpc.shieldedexpedition-mohismstake.site/" title="超链接title">https://rpc.shieldedexpedition-mohismstake.site/</a>
+<a href="https://rpc.shieldedexpedition-mohismstake.site/" title="RPC endpoint">https://rpc.shieldedexpedition-mohismstake.site/</a>
 </p>
 
 #### Indexer Service: 
