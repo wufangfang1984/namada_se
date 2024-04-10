@@ -79,7 +79,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
   padding: 8px;
 ">
 <b><strong>install essentials</strong></b><br />
-<div style="height:6px;"></div>
+<br />
 sudo apt update<br />
 sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
 </p>
