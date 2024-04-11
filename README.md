@@ -1,8 +1,8 @@
-# <center> Namada Basic Services
+# <center> Namada Shielded Expedition Services
 
-## <center> Basic Services(RPC, Indexer, Seed, Peer, etc)
+## <center> Infrastructure Services
 
-#### <center> RPC Endpoints:
+#### <center> RPC Service:
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
@@ -13,7 +13,7 @@
 https://rpc.wufangfang-namada.online/
 </p>
 
-#### <center> Indexer Endpoints: 
+#### <center> Indexer Service: 
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
@@ -111,7 +111,7 @@ sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
 <br />
 </div>
 
-## <center> Node Setup(Install Official Binaries)
+## <center> Node Setup(Install Compiled Binaries)
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
