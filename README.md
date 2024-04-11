@@ -4,7 +4,7 @@
 
 #### <center> RPC Endpoints:
 <p style="
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px 0 rgba(33,33,33,0.3);
   width: 100%;
   text-align: center;
   border-radius: 12px;
