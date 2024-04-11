@@ -10,7 +10,7 @@
   border-radius: 12px;
   padding: 12px;
 ">
-<a href="https://rpc.shoeiico-se-namada.asia/" title="RPC endpoint">https://rpc.shoeiico-se-namada.asia/</a>
+https://rpc.wufangfang-namada.online/
 </p>
 
 #### <center> Indexer Endpoints: 
