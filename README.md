@@ -71,7 +71,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 <div style="height:22px"></div>
 
 ## <center> Node Setup
-<p style="
+<div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
   text-align: center;
@@ -82,7 +82,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 <br />
 sudo apt update<br />
 sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
-</p>
+</div>
 
 ## Validator management
 
