@@ -126,7 +126,7 @@ tar -zxvf namada-v0.31.6-Linux-x86_64.tar.gz<br />
 sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
 </div>
 
-## Validator management
+## Crew Member Commands
 
 #### Validator consensus state
 ```
