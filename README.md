@@ -70,7 +70,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 
 <div style="height:22px"></div>
 
-## <center> Node Setup
+## <center> Node Setup(Compile from source)
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
@@ -80,8 +80,39 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 ">
 <b><strong>install essentials</strong></b><br />
 <br />
-<left> sudo apt update<br />
-<left> sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
+sudo apt update<br />
+sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
+<br />
+<b><strong>install rust</strong></b><br />
+<br />
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y <br />
+source $HOME/.cargo/env<br />
+<br />
+<b><strong>install protocol buffers</strong></b><br />
+<br />
+sudo apt install protobuf-compiler<br />
+<br />
+<b><strong>install protocol buffers</strong></b><br />
+<br />
+sudo apt install protobuf-compiler<br />
+<br />
+<b><strong>install Cometbft</strong></b><br />
+<br />
+mkdir cometbft<br />
+wget https://github.com/cometbft/cometbft/releases/download/v0.37.2/cometbft_0.37.2_linux_amd64.tar.gz<br />
+tar xvf cometbft_0.37.2_linux_amd64.tar.gz -C ./cometbft<br />
+chmod +x cometbft/cometbft<br />
+sudo mv cometbft/cometbft /usr/local/bin/<br />
+<br />
+<b><strong>Compile from repo</strong></b><br />
+<br />
+git clone https://github.com/anoma/namada.git<br />
+cd namada<br />
+git checkout v0.31.6<br />
+make install<br />
+sudo chmod +x ~/.cargo/bin/namada*<br />
+sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
+<br />
 </div>
 
 ## Validator management
