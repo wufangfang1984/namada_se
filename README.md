@@ -120,6 +120,7 @@ sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
   padding: 8px;
 ">
 <b><strong>Install Official Namada Binaries</strong></b><br />
+<br />
 wget https://github.com/anoma/namada/releases/download/v0.31.6/namada-v0.31.6-Linux-x86_64.tar.gz<br />
 tar -zxvf namada-v0.31.6-Linux-x86_64.tar.gz<br />
 sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
