@@ -104,7 +104,7 @@ sudo mv cometbft/cometbft /usr/local/bin/<br />
 <br />
 git clone https://github.com/anoma/namada.git<br />
 cd namada<br />
-git checkout v0.31.6<br />
+git checkout v0.32.1<br />
 make install<br />
 sudo chmod +x ~/.cargo/bin/namada*<br />
 sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
