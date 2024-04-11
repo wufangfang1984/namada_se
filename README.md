@@ -240,4 +240,54 @@ namadac redelegate \
  --amount "<Amount>"
 ```
 
+#### <center> Transfer Token
+```
+namadac transfer \
+  --token naan \
+  --amount "Amount" \
+  --target "Destination Wallet Alias/address" \
+  --source "Source Wallet Alias/address" \
+  --signing-keys "Wallet Public key"
+```
+
+#### <center> Generate Shielded Account 
+```
+namadaw gen --shielded --alias "Spending Key Alias"
+namadaw gen-payment-addr --key "Spending Key Alias" --alias "Payment Key Alias"
+```
+
+#### <center> Transparent To Shielded Transfer
+```
+namadac transfer \
+  --token naan \
+  --amount "Amount" \
+  --target "Payment Key Alias" \
+  --source "Wallet address" \
+  --signing-keys "Wallet Public key"
+```
+
+#### <center> Shielded To Shielded Transfer
+```
+namadac transfer \
+  --token naan \
+  --amount "Amount" \
+  --target "Destination Payment Key Alias>" \
+  --source "Source Spending Key Alias" \
+  --signing-keys "Wallet Public key"
+```
+
+#### <center> Unshielded Transfer
+```
+namadac transfer \
+  --token naan \
+  --amount "Amount" \
+  --target "Wallet address" \
+  --source "Spending Key Alias" \
+  --signing-keys "Wallet Public key"
+```
+
+#### <center> Shielded Sync
+```
+namadac shielded-sync
+```
 
