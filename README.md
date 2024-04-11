@@ -138,7 +138,7 @@ export CHAIN_ID=shielded-expedition.88f17d1d14<br />
 namadac utils join-network --chain-id $CHAIN_ID<br />
 </div>
 
-## Run node as Service
+## <center> Run node as Service
 ```
 sudo tee /etc/systemd/system/namadad.service << EOF
 [Unit]
@@ -161,7 +161,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-#### Active service
+#### <center> Active service
 ```
 sudo chmod 755 /etc/systemd/system/namadad.service
 sudo systemctl daemon-reload
@@ -169,7 +169,7 @@ sudo systemctl enable namadad
 sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
 ```
 
-#### Service commands
+#### <center> Service commands
 ```
 sudo service namadad start
 sudo service namadad status
