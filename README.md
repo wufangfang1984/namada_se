@@ -32,7 +32,7 @@ https://se.indexer-wufangfang.online/block/last
   border-radius: 12px;
   padding: 14px;
 ">
-tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
+tcp://d8025e5dea101bc573d31e53cf3f479c80d5d859@194.163.132.38:26656
 </p>
 
 #### <center> Peer:
@@ -43,7 +43,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
   border-radius: 12px;
   padding: 14px;
 ">
-tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
+tcp://d8025e5dea101bc573d31e53cf3f479c80d5d859@194.163.132.38:26656
 </p>
 
 #### <center> Address book:
@@ -54,7 +54,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
   border-radius: 12px;
   padding: 14px;
 ">
-http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
+http://rpc.wufangfang-namada.online:7060/addrbook.json
 </p>
 
 #### <center> Snapshot:
@@ -65,7 +65,7 @@ http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
   border-radius: 12px;
   padding: 14px;
 ">
-http://rpc.shoeiico-se-namada.asia:61000/snapshot_202404.tar.gz
+http://rpc.wufangfang-namada.online:7060/namada_testnet_snapshot.tar.gz
 </div>
 
 <div style="height:22px"></div>
