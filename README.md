@@ -54,7 +54,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
   border-radius: 12px;
   padding: 12px;
 ">
-http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
+http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
 </p>
 
 #### <center> Snapshot:
