@@ -1,6 +1,6 @@
-# <center> Namada infrastructure
+# <center> Namada Basic Services
 
-## <center> Infrastructures
+## <center> Basic Services(RPC, Indexer, Seed, Peer, etc)
 
 #### <center> Public RPC:
 <p style="
@@ -109,6 +109,20 @@ make install<br />
 sudo chmod +x ~/.cargo/bin/namada*<br />
 sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
 <br />
+</div>
+
+## <center> Node Setup(Install Official Binaries)
+<div style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+<b><strong>Install Official Namada Binaries</strong></b><br />
+wget https://github.com/anoma/namada/releases/download/v0.31.6/namada-v0.31.6-Linux-x86_64.tar.gz<br />
+tar -zxvf namada-v0.31.6-Linux-x86_64.tar.gz<br />
+sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
 </div>
 
 ## Validator management
