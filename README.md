@@ -8,7 +8,7 @@
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 https://rpc.wufangfang-namada.online/
 </p>
@@ -19,7 +19,7 @@ https://rpc.wufangfang-namada.online/
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 https://se.indexer-wufangfang.online/block/last
 </p>
@@ -30,7 +30,7 @@ https://se.indexer-wufangfang.online/block/last
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 </p>
@@ -41,7 +41,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 </p>
@@ -52,7 +52,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
 </p>
@@ -63,7 +63,7 @@ http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 12px;
+  padding: 14px;
 ">
 http://rpc.shoeiico-se-namada.asia:61000/snapshot_202404.tar.gz
 </div>
@@ -76,7 +76,7 @@ http://rpc.shoeiico-se-namada.asia:61000/snapshot_202404.tar.gz
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 8px;
+  padding: 14px;
 ">
 <b><strong>Install Essentials</strong></b><br />
 <br />
@@ -117,7 +117,7 @@ sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 8px;
+  padding: 14px;
 ">
 <b><strong>Install Official Namada Binaries</strong></b><br />
 <br />
@@ -132,7 +132,7 @@ sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 8px;
+  padding: 14px;
 ">
 export CHAIN_ID=shielded-expedition.88f17d1d14<br />
 namadac utils join-network --chain-id $CHAIN_ID<br />
@@ -168,7 +168,7 @@ EOF
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 8px;
+  padding: 14px;
 ">
 sudo chmod 755 /etc/systemd/system/namadad.service<br />
 sudo systemctl daemon-reload<br />
@@ -182,7 +182,7 @@ sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
   width: 100%;
   text-align: left;
   border-radius: 12px;
-  padding: 8px;
+  padding: 14px;
 ">
 sudo service namadad start<br />
 sudo service namadad status<br />
