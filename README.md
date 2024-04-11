@@ -126,6 +126,57 @@ tar -zxvf namada-v0.31.6-Linux-x86_64.tar.gz<br />
 sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
 </div>
 
+## <center> Start Node
+<div style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+export CHAIN_ID=shielded-expedition.88f17d1d14<br />
+namadac utils join-network --chain-id $CHAIN_ID<br />
+</div>
+
+## Run node as Service
+```
+sudo tee /etc/systemd/system/namadad.service << EOF
+[Unit]
+Description=Namada Node
+After=network.target
+[Service]
+User=$USER
+WorkingDirectory=$HOME/.local/share/namada
+Type=simple
+ExecStart=/usr/local/bin/namada --base-dir=$HOME/.local/share/namada node ledger run
+Environment=NAMADA_CMT_STDOUT=true
+Environment=TM_LOG_LEVEL=p2p:none,pex:error
+RemainAfterExit=no
+Restart=on-failure
+RestartSec=10s
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+#### Active service
+```
+sudo chmod 755 /etc/systemd/system/namadad.service
+sudo systemctl daemon-reload
+sudo systemctl enable namadad
+sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
+```
+
+#### Service commands
+```
+sudo service namadad start
+sudo service namadad status
+sudo service namadad stop
+sudo service namadad restart
+```
+
 ## Crew Member Commands
 
 #### Validator consensus state
@@ -169,41 +220,3 @@ namadac change-metadata \
   --email "EMAIL"
 ```
 
-## Run node as Service
-```
-sudo tee /etc/systemd/system/namadad.service << EOF
-[Unit]
-Description=Namada Node
-After=network.target
-[Service]
-User=$USER
-WorkingDirectory=$HOME/.local/share/namada
-Type=simple
-ExecStart=/usr/local/bin/namada --base-dir=$HOME/.local/share/namada node ledger run
-Environment=NAMADA_CMT_STDOUT=true
-Environment=TM_LOG_LEVEL=p2p:none,pex:error
-RemainAfterExit=no
-Restart=on-failure
-RestartSec=10s
-LimitNOFILE=65535
-
-[Install]
-WantedBy=multi-user.target
-EOF
-```
-
-#### Active service
-```
-sudo chmod 755 /etc/systemd/system/namadad.service
-sudo systemctl daemon-reload
-sudo systemctl enable namadad
-sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
-```
-
-#### Service commands
-```
-sudo service namadad start
-sudo service namadad status
-sudo service namadad stop
-sudo service namadad restart
-```
