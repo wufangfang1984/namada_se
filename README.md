@@ -21,7 +21,7 @@
   border-radius: 12px;
   padding: 12px;
 ">
-<a href="https://se.shoeiico-indexer-namada.online/block/last" title="RPC endpoint">https://se.shoeiico-indexer-namada.online/block/last</a>
+<a href="https://se.shoeiico-indexer-namada.online/block/last" title="Indexer endpoint">https://se.shoeiico-indexer-namada.online/block/last</a>
 </p>
 
 #### <center> Seed:
@@ -32,7 +32,7 @@
   border-radius: 12px;
   padding: 12px;
 ">
-tcp://e1e4f80f1a4738f3a3983369c35e3d3fe3369b3f@154.53.45.59:26656
+tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 </p>
 
 #### <center> Peer:
@@ -43,7 +43,7 @@ tcp://e1e4f80f1a4738f3a3983369c35e3d3fe3369b3f@154.53.45.59:26656
   border-radius: 12px;
   padding: 12px;
 ">
-tcp://e1e4f80f1a4738f3a3983369c35e3d3fe3369b3f@154.53.45.59:26656
+tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 </p>
 
 #### <center> Address book:
@@ -65,7 +65,7 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/addrbook.json
   border-radius: 12px;
   padding: 12px;
 ">
-http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
+http://rpc.shoeiico-se-namada.asia:61000/snapshot_202404.tar.gz
 </div>
 
 <div style="height:22px"></div>
@@ -136,6 +136,7 @@ sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
 ">
 export CHAIN_ID=shielded-expedition.88f17d1d14<br />
 namadac utils join-network --chain-id $CHAIN_ID<br />
+namadan ledger run
 </div>
 
 ## <center> Run node as Service
