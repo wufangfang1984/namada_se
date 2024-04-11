@@ -161,62 +161,44 @@ WantedBy=multi-user.target
 EOF
 ```
 
-#### <center> Active service
-```
-sudo chmod 755 /etc/systemd/system/namadad.service
-sudo systemctl daemon-reload
-sudo systemctl enable namadad
+#### <center> Enable Service
+<div style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+sudo chmod 755 /etc/systemd/system/namadad.service<br />
+sudo systemctl daemon-reload<br />
+sudo systemctl enable namadad<br />
 sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
-```
+</div>
 
-#### <center> Service commands
-```
-sudo service namadad start
-sudo service namadad status
-sudo service namadad stop
-sudo service namadad restart
-```
+#### <center> Service Operations
+<div style="
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  padding: 8px;
+">
+sudo service namadad start<br />
+sudo service namadad status<br />
+sudo service namadad stop<br />
+sudo service namadad restart<br />
+</div>
 
-## Crew Member Commands
+## <center> Crew Member Commands
 
-#### Validator consensus state
+#### <center> Import Registered Account
 ```
 namadac validator-state --validator "<Validator address>"
 ```
 
-#### Unjail validator
+#### <center> Check Balance
 ```
 namadac unjail-validator --validator  "<Validator address>"
 ```
 
-#### Query a validator's bonded-stake
-```
-namadac bonded-stake
-```
-
-#### Deactivate validator
-```
-namadac deactivate-validator --validator "VALIDATOR"
-```
-
-#### Reactivate validator
-```
-namadac reactivate-validator --validator "VALIDATOR"
-```
-
-#### Query validator metadata
-```
-namadac validator-metadata --validator "VALIDATOR"
-```
-
-#### Change validator metadata
-```
-namadac change-metadata \
-  --validator "VALIDATOR" \
-  --website "WEBSITE_URL" \
-  --description "DESCRIPTION" \
-  --avatar "LINK_TO_AVATAR" \
-  --discord-handle "DISCORD_HANDLE" \
-  --email "EMAIL"
-```
 
