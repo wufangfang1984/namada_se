@@ -82,6 +82,10 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 <br />
 sudo apt update<br />
 sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
+```
+sudo apt update
+sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y
+```
 </div>
 
 ## Validator management
