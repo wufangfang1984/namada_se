@@ -190,16 +190,54 @@ sudo service namadad stop<br />
 sudo service namadad restart<br />
 </div>
 
-## <center> Crew Member Commands
+## <center> Crew Member Operations
 
 #### <center> Import Registered Account
 ```
-namadac validator-state --validator "<Validator address>"
+Import Registered Account
 ```
 
 #### <center> Check Balance
 ```
-namadac unjail-validator --validator  "<Validator address>"
+namadac balance --owner "Wallet address"
+```
+
+#### <center> Stake
+```
+namadac bond \
+  --validator "Validator address" \
+  --source "Wallet address" \
+  --signing-keys "Wallet Public key" \
+  --amount "Amount"
+```
+
+#### <center> Unstake
+```
+namadac unbond --source "Wallet address" --validator "Validator address" --amount "Amount"
+```
+
+#### <center> Withdraw
+```
+namadac withdraw --source "Wallet address" --validator "Validator address" 
+```
+
+#### <center> Claim
+```
+namadac claim-rewards --validator "Validator address" --source "Wallet address"
+```
+
+#### <center> Query Delegations
+```
+namadac delegations --owner "Wallet address"
+```
+
+#### <center> Redelegate
+```
+namadac redelegate \
+ --source-validator "<Source Validator address>" \
+ --destination-validator "<Destination Validator address>" \
+ --owner "<Wallet address>" \
+ --amount "<Amount>"
 ```
 
 
