@@ -6,7 +6,7 @@
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -17,7 +17,7 @@ https://rpc.wufangfang-namada.online/
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -28,7 +28,7 @@ https://se.indexer-wufangfang.online/block/last
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -39,7 +39,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -50,7 +50,7 @@ tcp://c903e6596d8cada85426d81cbfe08387993413cb@213.136.71.166:26656
 <p style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -61,7 +61,7 @@ http://rpc.shoeiico-se-namada.asia:61000/addrbook.json
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 12px;
 ">
@@ -74,7 +74,7 @@ http://rpc.shoeiico-se-namada.asia:61000/snapshot_202404.tar.gz
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 8px;
 ">
@@ -115,7 +115,7 @@ sudo mv ~/.cargo/bin/namada* /usr/local/bin<br />
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 8px;
 ">
@@ -130,7 +130,7 @@ sudo mv namada-v0.31.6-Linux-x86_64/namada* /usr/local/bin/<br />
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 8px;
 ">
@@ -166,7 +166,7 @@ EOF
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 8px;
 ">
@@ -180,7 +180,7 @@ sudo systemctl start namadad && sudo journalctl -u namadad -n 1000 -f
 <div style="
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 12px;
   padding: 8px;
 ">
