@@ -80,12 +80,8 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
 ">
 <b><strong>install essentials</strong></b><br />
 <br />
-sudo apt update<br />
-sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
-```
-sudo apt update
-sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y
-```
+<left> sudo apt update<br />
+<left> sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
 </div>
 
 ## Validator management
