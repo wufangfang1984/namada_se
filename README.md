@@ -10,7 +10,7 @@
   border-radius: 12px;
   padding: 12px;
 ">
-<a href="https://rpc.shieldedexpedition-mohismstake.site/" title="RPC endpoint">https://rpc.shieldedexpedition-mohismstake.site/</a>
+<a href="https://rpc.shoeiico-se-namada.asia/" title="RPC endpoint">https://rpc.shoeiico-se-namada.asia/</a>
 </p>
 
 #### <center> Indexer Endpoints: 
@@ -21,7 +21,7 @@
   border-radius: 12px;
   padding: 12px;
 ">
-<a href="https://rpc.shieldedexpedition-mohismstake.site/" title="RPC endpoint">https://rpc.shieldedexpedition-mohismstake.site/</a>
+<a href="https://se.shoeiico-indexer-namada.online/block/last" title="RPC endpoint">https://se.shoeiico-indexer-namada.online/block/last</a>
 </p>
 
 #### <center> Seed:
