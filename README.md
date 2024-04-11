@@ -192,9 +192,9 @@ sudo service namadad restart<br />
 
 ## <center> Crew Member Operations
 
-#### <center> Import Registered Account
+#### <center> Recover Account
 ```
-Import Registered Account
+namadaw derive --alias "<Wallet address>"
 ```
 
 #### <center> Check Balance
