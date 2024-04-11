@@ -78,25 +78,21 @@ http://rpc.shieldedexpedition-mohismstake.site:12345/snapshot_testnetse.tar.gz
   border-radius: 12px;
   padding: 8px;
 ">
-<b><strong>install essentials</strong></b><br />
+<b><strong>Install Essentials</strong></b><br />
 <br />
 sudo apt update<br />
 sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y<br />
 <br />
-<b><strong>install rust</strong></b><br />
+<b><strong>Install Rust</strong></b><br />
 <br />
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y <br />
 source $HOME/.cargo/env<br />
 <br />
-<b><strong>install protocol buffers</strong></b><br />
+<b><strong>Install Protocol Buffers</strong></b><br />
 <br />
 sudo apt install protobuf-compiler<br />
 <br />
-<b><strong>install protocol buffers</strong></b><br />
-<br />
-sudo apt install protobuf-compiler<br />
-<br />
-<b><strong>install Cometbft</strong></b><br />
+<b><strong>Install Cometbft</strong></b><br />
 <br />
 mkdir cometbft<br />
 wget https://github.com/cometbft/cometbft/releases/download/v0.37.2/cometbft_0.37.2_linux_amd64.tar.gz<br />
@@ -104,7 +100,7 @@ tar xvf cometbft_0.37.2_linux_amd64.tar.gz -C ./cometbft<br />
 chmod +x cometbft/cometbft<br />
 sudo mv cometbft/cometbft /usr/local/bin/<br />
 <br />
-<b><strong>Compile from repo</strong></b><br />
+<b><strong>Compile From Repo</strong></b><br />
 <br />
 git clone https://github.com/anoma/namada.git<br />
 cd namada<br />
