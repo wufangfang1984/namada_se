@@ -1,4 +1,4 @@
-# <center> Namada Shielded Expedition Services
+#  Namada Shielded Expedition Services
 
 ## <center> Infrastructure Services
 
