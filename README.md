@@ -62,7 +62,7 @@ http://rpc.wufangfang-namada.online:7060/addrbook.json
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   width: 100%;
   text-align: left;
-  border-radius: 12px;
+  border-radius: 13px;
   padding: 14px;
 ">
 http://rpc.wufangfang-namada.online:7060/namada_testnet_snapshot.tar.gz
